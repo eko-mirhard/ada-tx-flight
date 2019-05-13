@@ -4,6 +4,8 @@ A sample project showcasing the WebSocket service from [`soshen.io`](https://sos
 
 Each incoming transactions are rendered as airplanes flying across the screen, with the transaction size/amount determines the airplane model (ie. larger transactions are rendered with bigger or more modern model).
 
+TODO: Optimize rendering for mobile browsers. Don't open this on your phone, yet!
+
 ## How to run
 
 - Run `npm install` to setup dependencies.
