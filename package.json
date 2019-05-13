@@ -1,0 +1,64 @@
+{
+  "name": "ada-tx-flight",
+  "version": "0.1.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eko-mirhard/ada-tx-flight.git"
+  },
+  "author": "Eko Mirhard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eko-mirhard/ada-tx-flight/issues"
+  },
+  "homepage": "https://github.com/eko-mirhard/ada-tx-flight#readme",
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "big-integer": "^1.6.43",
+    "prop-types": "^15.7.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-gsap": "^1.2.0",
+    "react-scripts": "3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
