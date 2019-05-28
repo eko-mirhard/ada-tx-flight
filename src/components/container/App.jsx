@@ -43,9 +43,16 @@ class AppContainer extends React.Component {
       ws.send('sub transactionCreated');
     };
 
-    ws.onmessage = (event) => {
-      const { data } = JSON.parse(event.data);
-      this.onNewTransaction(data);
+    ws.onmessage = (message) => {
+      const {
+        event,
+        data,
+      } = JSON.parse(message.data);
+
+      // Only process the 'transactionCreated' event
+      if (event === 'transactionCreated') {
+        this.onNewTransaction(data);
+      }
     };
 
     ws.onclose = () => {
