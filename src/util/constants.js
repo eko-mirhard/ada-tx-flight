@@ -9,7 +9,7 @@ module.exports = {
   apiId: 'YOUR_PROJECT_API_ID',
   projectName: 'YOUR_PROJECT_NAME',
   webSocketUrl: 'wss://nodes.soshen.io',
-  explorerUrl: 'https://cardanoexplorer.com/tx/',
+  explorerUrl: 'https://seiza.com/blockchain/transaction/',
   planeSprites: [
     planeSprite1,
     planeSprite2,
