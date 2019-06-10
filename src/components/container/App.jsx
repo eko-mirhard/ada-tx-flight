@@ -19,7 +19,7 @@ const {
   COLOSSAL,
 } = transactionSizes;
 
-const backendUrl = `${webSocketUrl}/${projectName}/${apiId}`;
+const backendUrl = `${webSocketUrl}/${projectName}/${apiId}/cardano`;
 
 class AppContainer extends React.Component {
   state = {

@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/eko-mirhard/ada-tx-flight/issues"
   },
-  "homepage": "https://github.com/eko-mirhard/ada-tx-flight#readme",
+  "homepage": "https://flight.soshen.io",
   "pre-commit": [
     "lint"
   ],
